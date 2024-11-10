@@ -32,4 +32,4 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <[repository-url](https://github.com/N1Rizhka/Commschool-Final.git)>
