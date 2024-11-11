@@ -111,7 +111,7 @@ function initializeSearch() {
 // Call the appropriate function based on the page
 document.addEventListener("DOMContentLoaded", () => {
   const path = window.location.pathname;
-  if (path.includes("/catalogue.html")) {
+  if (path.includes("/Pages/catalogue.html")) { // Updated path to match the folder structure
     displayAllProducts(); // Call on the catalogue page
     initializeSearch();   // Initialize search on the catalogue page
   } else {
