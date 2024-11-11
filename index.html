@@ -7,7 +7,7 @@
   <link rel="icon" href="src/img/favicon.svg" type="image/svg" />
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="src/style.css" rel="stylesheet">
 </head>
 
 <body class="bg-white font-poppins">
@@ -17,9 +17,9 @@
       <img src="src/img/logo.svg" alt="Fashion Logo" class="h-8">
     </div>
     <nav class="flex items-center space-x-6 text-gray-800">
-      <a href="catalogue.html" class="hover:text-gray-600">Catalogue</a>
-      <a href="lifestyle.html" class="hover:text-gray-600">Lifestyle</a>
-      <a href="cart.html" class="px-4 py-2 text-white bg-green-600 rounded-md hover:bg-white hover:text-green-600 text-center"> 
+      <a href="Pages/catalogue.html" class="hover:text-gray-600">Catalogue</a>
+      <a href="Pages/lifestyle.html" class="hover:text-gray-600">Lifestyle</a>
+      <a href="Pages/cart.html" class="px-4 py-2 text-white bg-green-600 rounded-md hover:bg-white hover:text-green-600 text-center"> 
         Cart
       </a>
     </nav>
@@ -48,7 +48,7 @@
         <span class="block">CLOTHES.</span>
       </h1>
       <p class="text-gray-600 text-lg">Live for Influential and Innovative fashion!</p>
-      <a href= "/catalogue.html" class="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg shadow-md hover:bg-gray-800">
+      <a href= "Pages/catalogue.html" class="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg shadow-md hover:bg-gray-800">
         Shop Now
       </a>
     </div>
@@ -61,7 +61,7 @@
   <section class="container mx-auto px-6 py-12">
     <div class="flex justify-between items-center mb-6">
       <h2 class="text-3xl font-semibold text-green-700">NEW ARRIVALS</h2>
-      <a href="/catalogue.html" class="flex items-center text-green-600 font-semibold hover:text-green-700 space-x-2">
+      <a href="Pages/catalogue.html" class="flex items-center text-green-600 font-semibold hover:text-green-700 space-x-2">
         <span>ALL PRODUCTS</span>
         <img src="src/img/arrow.svg" alt="Arrow Icon" class="w-5 h-5">
       </a>
@@ -76,13 +76,13 @@
     <div class="max-w-screen-xl px-4 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
       <nav class="flex flex-wrap justify-center -mx-5 -my-2">
         <div class="px-5 py-2">
-          <a href="/catalogue.html" class="text-base leading-6 text-white hover:text-slate-100">Catalogue</a>
+          <a href="Pages/catalogue.html" class="text-base leading-6 text-white hover:text-slate-100">Catalogue</a>
         </div>
         <div class="px-5 py-2">
-          <a href="/Lifestyle.html" class="text-base leading-6 text-white hover:text-slate-100">Lifestyle</a>
+          <a href="pages/Lifestyle.html" class="text-base leading-6 text-white hover:text-slate-100">Lifestyle</a>
         </div>
         <div class="px-5 py-2">
-          <a href="/Cart.html" class="text-base leading-6 text-white hover:text-slate-100">Cart</a>
+          <a href="pages/Cart.html" class="text-base leading-6 text-white hover:text-slate-100">Cart</a>
         </div>
       </nav>
       <div class="flex justify-center mt-8 space-x-6">
@@ -106,9 +106,9 @@
   </footer>
 
   <!-- Load app.js -->
-  <script src="data.js" type="module"></script>
-  <script src="app.js" type="module"></script>
-  <script src="cart.js" type="module"></script>
-  <script src="product.js" type="module"></script>
+  <script src="src/scripts/data.js" type="module"></script>
+  <script src="src/scripts/app.js" type="module"></script>
+  <script src="src/scripts/cart.js" type="module"></script>
+  <script src="src/scripts/product.js" type="module"></script>
 </body>
 </html>

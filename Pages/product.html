@@ -7,7 +7,7 @@
   <link rel="icon" href="src/img/favicon.svg" type="image/svg" />
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="src/style.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100 font-sans">
   <header class="container mx-auto flex justify-between items-center bg-white py-4 px-6">
@@ -15,9 +15,9 @@
       <img src="src/img/logo.svg" alt="Fashion Logo" class="h-8">
     </div>
     <nav class="flex items-center space-x-6 text-gray-800">
-      <a href="catalogue.html" class="hover:text-gray-600 font-semibold">Catalogue</a>
-      <a href="lifestyle.html" class="hover:text-gray-600">Lifestyle</a>
-      <a href="cart.html" class="px-4 py-2 text-white bg-green-600 rounded-md hover:bg-white hover:text-green-600 text-center"> 
+      <a href="pages/catalogue.html" class="hover:text-gray-600 font-semibold">Catalogue</a>
+      <a href="pages/lifestyle.html" class="hover:text-gray-600">Lifestyle</a>
+      <a href="pages/cart.html" class="px-4 py-2 text-white bg-green-600 rounded-md hover:bg-white hover:text-green-600 text-center"> 
         Cart
       </a>
     </nav>
@@ -33,13 +33,13 @@
       <div class="max-w-screen-xl px-4 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
           <div class="px-5 py-2">
-            <a href="/catalogue.html" class="text-base leading-6 text-white hover:text-slate-100">Catalogue</a>
+            <a href="pages/catalogue.html" class="text-base leading-6 text-white hover:text-slate-100">Catalogue</a>
           </div>
           <div class="px-5 py-2">
-            <a href="/Lifestyle.html" class="text-base leading-6 text-white hover:text-slate-100">Lifestyle</a>
+            <a href="pages/Lifestyle.html" class="text-base leading-6 text-white hover:text-slate-100">Lifestyle</a>
           </div>
           <div class="px-5 py-2">
-            <a href="/Cart.html" class="text-base leading-6 text-white hover:text-slate-100">Cart</a>
+            <a href="pages/Cart.html" class="text-base leading-6 text-white hover:text-slate-100">Cart</a>
           </div>
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
@@ -62,8 +62,8 @@
       </div>
     </footer>
 
-  <script src="data.js" type="module"></script>
-  <script src="product.js" type="module"></script>
-  <script src="cart.js" type="module"></script>
+  <script src="src/scripts/data.js" type="module"></script>
+  <script src="src/scripts/product.js" type="module"></script>
+  <script src="src/scripts/cart.js" type="module"></script>
 </body>
 </html>
