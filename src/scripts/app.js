@@ -2,7 +2,7 @@ import { fetchProducts } from './data.js';
 
 let allProducts = []; // Global variable to store all products
 
-// Display 4 random products (for the homepage)
+// Displaying 4 random products (for the homepage)
 async function displayRandomProducts() {
   const products = await fetchProducts();
   const randomProducts = products.sort(() => 0.5 - Math.random()).slice(0, 4);
@@ -48,13 +48,13 @@ async function displayRandomProducts() {
 }
 
 
-// Display all products (for the catalogue page)
+// Displaying all products (for the catalogue page)
 async function displayAllProducts() {
   allProducts = await fetchProducts(); // Fetch and store all products in the global array
   displayFilteredProducts(allProducts); // Display all products initially
 }
 
-// Display products based on a filtered list
+// Search list - filtered prods
 function displayFilteredProducts(filteredProducts) {
   const container = document.getElementById("product-grid");
   container.innerHTML = ""; // Clear any existing content
@@ -78,7 +78,7 @@ function displayFilteredProducts(filteredProducts) {
       </div>
     `;
 
-    // Event listener to open product.html with product ID as a query parameter
+    // Event listener to open product.html with product ID as a parameter
     productCard.querySelectorAll(".product-frame").forEach(frame => {
       frame.addEventListener("click", () => {
         window.location.href = `/pages/product.html?id=${product.id}`;
