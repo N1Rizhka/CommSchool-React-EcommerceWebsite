@@ -39,7 +39,7 @@ async function displayRandomProducts() {
     // Event listener to open product.html with product ID as a query parameter
     productCard.querySelectorAll(".product-frame").forEach(frame => {
       frame.addEventListener("click", () => {
-        window.location.href = `product.html?id=${product.id}`;
+        window.location.href = `pages/product.html?id=${product.id}`;
       });
     });
 
@@ -81,7 +81,7 @@ function displayFilteredProducts(filteredProducts) {
     // Event listener to open product.html with product ID as a query parameter
     productCard.querySelectorAll(".product-frame").forEach(frame => {
       frame.addEventListener("click", () => {
-        window.location.href = `product.html?id=${product.id}`;
+        window.location.href = `/pages/product.html?id=${product.id}`;
       });
     });
 
